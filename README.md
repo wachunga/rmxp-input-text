@@ -36,8 +36,11 @@ Allows the player to input text with the keyboard in much the same way as the "I
     input_text(id, chars_max, 'default')
 
 where...
+
 `id`: ID of the variable in which to store the input text, e.g. 1. Note: leading 0's will cause problems, e.g. 008
+
 `chars_max`: (optional) max number of characters to be allowed, e.g. 10. Note: leave blank or set as 0 for no limit.
+
 `default`: (optional) default text to appear, e.g. 'Bob'
 
 As with the "Input Number" command, if it is directly preceded by a "Show Text" command and there is available space in the message window, the "Text Input" prompt will appear in the same window as the message text. Otherwise, it will appear in its own window.
@@ -52,19 +55,22 @@ Some keycodes assume the US standard keyboard. See the MSDN library's [virtual k
 Version history
 ---
 0.99 - original release
+
 1.0 - switched over to using regular variables
+
 2.0
-- vastly improved quality of keyboard input
-  - variable-width letters
-  - all characters on standard US keyboard supported (punctuation etc.)
-  - added support for Delete (not just backspace), Home and End keys
-  - added Capslock support
-  - added cursor and Ctrl-cursor support
-  - added numpad support
-  - max number of displayable characters dynamically found and enforced (user can set lower maximum if desired)
-- added configurable sound
-- fixed bug with long input strings
-- SDK compatible
+
+* vastly improved quality of keyboard input
+   * variable-width letters
+   * all characters on standard US keyboard supported (punctuation etc.)
+   * added support for Delete (not just backspace), Home and End keys
+   * added Capslock support
+   * added cursor and Ctrl-cursor support
+   * added numpad support
+   * max number of displayable characters dynamically found and enforced (user can set lower maximum if desired)
+* added configurable sound
+* fixed bug with long input strings
+* SDK compatible
 
 
 
