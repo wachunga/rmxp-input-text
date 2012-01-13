@@ -4,7 +4,7 @@
 # Wachunga
 # Version 2.0
 # 2006-05-20
-# See https://github.com/Wachunga/rmxp-input-text for details
+# See https://github.com/wachunga/rmxp-input-text for details
 #==============================================================================
   
 #------------------------------------------------------------------------------
