@@ -1,8 +1,6 @@
 Input Text Event Command (v 2.0)
 ===
 
-A script for [RPG Maker XP](http://en.wikipedia.org/wiki/RPG_Maker_XP), which uses Ruby. Written years ago and posted on some now-defunct forums, but may still be useful to folks.
-
 Allows the player to input text in message windows, just like the default "Input Number" event command for numbers except using the keyboard instead of only cursor arrows.
 
 ![Demo screenshot](http://s88387243.onlinehome.us/rmxp/input_text/input_text.jpg)
