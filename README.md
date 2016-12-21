@@ -3,7 +3,7 @@ Input Text Event Command (v 2.0)
 
 Allows the player to input text in message windows, just like the default "Input Number" event command for numbers except using the keyboard instead of only cursor arrows.
 
-![Demo screenshot](http://s88387243.onlinehome.us/rmxp/input_text/input_text.jpg)
+![Demo screenshot](input_text.jpg)
 
 Features
 ---
